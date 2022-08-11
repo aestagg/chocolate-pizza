@@ -1,1 +1,36 @@
+.logo {
+  border: solid red;
+  display:  flex;
+  flex-direction: column;
+}
 
+.icon {
+  border: solid red;
+  align-items: center;
+
+  display: flex;
+
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+}
+
+h1 h2 {
+  margin-bottom: 2%;
+}
+
+.pizzatitle {
+  display: flex;
+}
+
+.print {
+  
+  display: flex;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+}
