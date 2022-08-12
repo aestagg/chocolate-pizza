@@ -1,36 +1,155 @@
-.logo {
-  border: solid red;
+body {
+  width: 100vw;
+  overflow-x: hidden;
+}
+
+#headerContainer {
+  display: flex;
+  width: 100;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* html *{
+  border: 1px black solid;
+} */
+
+#logo {
   display:  flex;
+  float: left;
+  height: 45px;
+  width: 45px;
+}
+
+#leftheader {
+  display: flex;
+  
+  align-items: center;
+  justify-content: left;
+}
+
+#logotext h2{
+  display:  flex;
+  flex-direction: column;
+  font-family: 'Yellowtail', serif;
+  font-size: 35px;
+  margin: 0px -5px 0px 1px;
+  align-items: center;
+}
+
+#logotext p{
+  display:  flex;
+  flex-direction: column;
+  font-family: 'Abel', serif;
+  font-size: 8px;
+  margin: -10px 0 0 5px;
+  align-items: center 
+}
+
+#icons {
+align-content: flex-end;
+justify-content: space-between;
+}
+ 
+#space {
+padding-right: 10px;
+}
+
+.border {
+  background: url(images/hr-img.png);
+  width: 100vw;
+  height: 5px;
+  margin-top: 15px;
+}
+
+#titlepost {
+  display: flexbox;
+
+}
+
+#pizzatitle {
   flex-direction: column;
 }
 
-.icon {
-  border: solid red;
+#pizzatitle h1 {
+  font-family: Patrick;
+  font-size: 30px;
+}
+
+#pizzatitle p {
+  font-size: 8px;
+  margin-top: -25px;
+}
+
+#pizza {
+  width: 100vw;
+}
+
+#print {
+  display: flex;
+  justify-content: flex-end;
+  width 90vw;
   align-items: center;
-
-  display: flex;
-
 }
 
-header {
+#paragraphs {
+  width: 90vw;
+  text-indent: 2vw;
+}
+
+
+#recipecard {
+  display: flex;
+  position: relative;
+  margin-top: -35%;
+  height: 13rem;
+  padding:5vw;
+}
+
+#list1 label {
+  position: relative;
+  display: flex;
+  margin: 0x 0px 25px 50px;
+}
+
+#list1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+#list2 label {
   display: flex;
   justify-content: space-between;
 }
 
-h1 h2 {
-  margin-bottom: 2%;
-}
-
-.pizzatitle {
+#list2 {
   display: flex;
-}
-
-.print {
-  
-  display: flex;
-}
-
-.header {
-  display: flex;
+  flex-direction: column;
   justify-content: space-between;
+}
+
+
+#list input[type="checkbox"] {
+  -webkit-appearance: none;
+}
+
+a {
+  color: peachpuff;
+}
+
+
+#vanessa {
+  margin: 2vw;
+}
+
+#lastborder {
+  display: flex;
+  justify-content: center;
+  padding: 5vw;
+}
+
+footer {
+  display: flex;
+  justify-content: center;
 }
